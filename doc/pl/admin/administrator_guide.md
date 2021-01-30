@@ -263,9 +263,9 @@ Aby zastosować klasę usług do istniejącego konta, użyj narzędzia wiersza p
 
 	util/service_class --account=5 firstclass
 
-* ustawienie konta, które jest właścicielem kanału `bdziennikchan` na klasę _firstclass_ (z potwierdzeniem)
+* ustawienie konta, które jest właścicielem kanału `blogchan` na klasę _firstclass_ (z potwierdzeniem)
 	
-	util/service_class --channel=bdziennikchan firstclass
+	util/service_class --channel=badmin/dziennikchan firstclass
 
 **Opcje limitu klas usług**
 
