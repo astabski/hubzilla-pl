@@ -4445,7 +4445,7 @@ msgstr "Aplikacja Cards"
 
 #: ../../Zotlabs/Module/Cards.php:52
 msgid "Create personal planning cards"
-msgstr "Twórz osobiste karty planowania"
+msgstr "Twórz osobiste karty zadań"
 
 #: ../../Zotlabs/Module/Cards.php:112
 msgid "Add Card"
@@ -10802,7 +10802,7 @@ msgstr ""
 
 #: ../../include/features.php:277
 msgid "Manage"
-msgstr "Zarządzaj"
+msgstr "Zarządzanie"
 
 #: ../../include/features.php:281
 msgid "Navigation Channel Select"
