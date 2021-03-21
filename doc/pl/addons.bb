@@ -1,6 +1,6 @@
 [h3]Wtyczki/Dodatki[/h3]
 [list=1]
-[*] abcjsplugin - tworzenie zapisów nitowych w swoich wpisach
+[*] abcjsplugin - tworzenie zapisów nutowych w swoich wpisach
 [*] adultphotoflag - zapobiega wyświetlaniu zdjęć NSFW w albumach publicznych
 [*] authchoose - wysyłanie potwierdzenia tożsamości tylko do witryn znajomych
 [*] b2tbtn - zapewnia przycisk powodujący przejście bezpośrednio na górę strony, jeśli przewinie się dużo treści dół okna

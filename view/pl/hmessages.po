@@ -4117,7 +4117,7 @@ msgstr "Administracja"
 
 #: ../../Zotlabs/Module/Admin.php:139
 msgid "Summary"
-msgstr "Posumowanie"
+msgstr "Podsumowanie"
 
 #: ../../Zotlabs/Module/Admin.php:142
 msgid "Registered accounts"
@@ -7872,7 +7872,7 @@ msgstr[2] "Wysłano %d wiadomości."
 
 #: ../../Zotlabs/Module/Invite.php:110
 msgid "Invite App"
-msgstr "Aplikacja Invite"
+msgstr "Aplikacja Zaproszenie"
 
 #: ../../Zotlabs/Module/Invite.php:111
 msgid "Send email invitations to join this network"
@@ -7906,16 +7906,16 @@ msgstr "Trzeba będzie podać ten kod zaproszenia:"
 #: ../../Zotlabs/Module/Invite.php:161
 msgid "1. Register at any $Projectname location (they are all inter-connected)"
 msgstr ""
-"1. Zarejestruj się w dowolnej lokalizacji $Projectname (wszystkie są ze sobą "
-"połączone)"
+"1. Zarejestruj się na wskazanym hubie $Projectname (choć możesz też na innym, bo "
+"wszystkie są ze sobą połączone)"
 
 #: ../../Zotlabs/Module/Invite.php:163
 msgid "2. Enter my $Projectname network address into the site searchbar."
-msgstr "2. Wpisz mój adres sieciowy $Projectname w pasku wyszukiwania serwisu."
+msgstr "2. Wpisz w pasku wyszukiwania serwisu mój adres sieciowy $Projectname."
 
 #: ../../Zotlabs/Module/Invite.php:164
 msgid "or visit"
-msgstr "lub odwiedź"
+msgstr "lub odwiedź adres URL"
 
 #: ../../Zotlabs/Module/Invite.php:166
 msgid "3. Click [Connect]"
@@ -9369,12 +9369,12 @@ msgstr "Adres URL Twojej witryny (opcjonalnie)"
 #: ../../Zotlabs/Lib/Activity.php:2110
 #, php-format
 msgid "Likes %1$s's %2$s"
-msgstr "Polibień %2$s %1$s"
+msgstr "Lubi %2$s %1$s"
 
 #: ../../Zotlabs/Lib/Activity.php:2113
 #, php-format
 msgid "Doesn't like %1$s's %2$s"
-msgstr "Dezaprobat %2$s %1$s"
+msgstr "Nie lubi %2$s %1$s"
 
 #: ../../Zotlabs/Lib/Activity.php:2119
 #, php-format
@@ -15868,7 +15868,7 @@ msgstr "Startpage"
 #: ../../view/theme/redbasic/php/config.php:16
 #: ../../view/theme/redbasic/php/config.php:19
 msgid "Focus (Hubzilla default)"
-msgstr "Fokus (domyślnie Hubzilla)"
+msgstr "Fokus (domyślny w Hubzilla)"
 
 #: ../../view/theme/redbasic/php/config.php:98
 msgid "Theme settings"
