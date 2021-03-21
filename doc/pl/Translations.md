@@ -27,7 +27,7 @@ kodu $Projectname:
 - doc/pl
 
 Projekt ten jest obecnie podstawą oficjalnego polskiego tłumaczenia $Projectname.  
-Po każdej istotnej zmianie, osoba kierująca projektem tłumaczenie zgłasza odpowiednie
+Po każdej istotnej zmianie, osoba kierująca projektem tłumaczenia zgłasza odpowiednie
 żądanie PR do drzewa żródłowego $Projectname.
 
 ### Zgłaszanie poprawek
