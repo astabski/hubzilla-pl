@@ -1,137 +1,137 @@
-Core Widgets
-============
+Rdzenne widżety
+===============
 
-Some/many of these widgets have restrictions which may restrict the type of page where they may appear or may require login
+Niektóre z tych widżetów ma ograniczenia, które mogą ograniczać typ strony, na której można umieszczać widżet lub mogą wymagać logowania
 
 
-* clock - displays the current time
+* clock - wyświetla aktualny czas
     * args: military (1 or 0) - use 24 hour time as opposed to AM/PM
 <br />&nbsp;<br />
 
-* profile - displays a profile sidebar on pages which load profiles (pages with nickname in the URL)
+* profile - wyświetla boczny pasek profilu na stronach, które ładują profile (strony z pseudonimem w adresie URL)
 
-* tagcloud - display a tagcloud of webpage items
+* tagcloud - wyświetla tagcloud elementów strony
 
-    * args: count - number of items to return (default 24)
+    * args: count - liczba elementów do jednoczesnego wyświetlenia (domyślnie 24)
 <br />&nbsp;<br />
 
-* collections - privacy group selector for the current logged in channel
+* collections - selektor grupy prywatności dla aktualnie zalogowanego kanału
 
-    * args: mode - one of "conversation", "group", "abook" depending on module
+    * args: mode - może to być "conversation", "group" albo "abook" w zależności od modułu
 <br />&nbsp;<br />
 
-* suggestions - friend suggestions for the current logged on channel
+* suggestions - sugestie znajomych dla aktualnie zalogowanego kanału
 
-* follow - presents a text box for following another channel
+* follow - przedstawia pole tekstowe do śledzenia innego kanału
 
-* notes - private notes area for the current logged in channel if private_notes feature is enabled
+* notes - obszar prywatnych notatek dla aktualnie zalogowanego kanału, jeśli funkcja private_notes jest włączona
 
-* savedsearch - network/matrix search with save - must be logged in and savedsearch feature enabled
+* savedsearch - wyszukiwanie sieci lub matrycy z zapisem - trzeba być zalogowanym i musi być włączona funkcjonalność savedsearch
 
-* filer - select filed items from network/matrix stream - must be logged in
+* filer - wybór elementów pola ze strumienia sieci lub matrycy - musi się być zalogowanym
 
-* archive - date range selector for network and channel pages
-    * args: 'wall' - 1 or 0, limit to wall posts or network/matrix posts (default)
+* archive - selektor zakresu dat dla stron sieci i kanałów
+    * args: 'wall' - 1 or 0, ograniczenie do wpisów ściennych lub wpisów sieciowych/matrycowych (domyślnie)
 <br />&nbsp;<br />
 
-* fullprofile - same as profile currently
+* fullprofile - taki sam jak obecny profil
 
-* categories - categories filter (channel page)
+* categories - filtr kategorii (strona kanału)
 
-* tagcloud_wall - tagcloud for channel page only
-    * args: 'limit' - number of tags to return (default 50)
+* tagcloud_wall - tagcloud tylko dla strony kanału
+    * args: 'limit' - ilość tagów do wyświetlenie (domyślnie 50)
 <br />&nbsp;<br />
 
-* catcloud_wall - tagcloud for channel page categories
-    * args: 'limit' - number of categories to return (default 50)
+* catcloud_wall - tagcloud dla kategorii stron kanału
+    * args: 'limit' - liczba kategorii do wyświetlenia na jednej stronie (domyślnie 50)
 <br />&nbsp;<br />
 
-* affinity - affinity slider for network page - must be logged in
+* affinity - suwak powinowactwa na stronie sieciowej, trzeba być zalogowanym
 
-* settings_menu - sidebar menu for settings page, must be logged in
+* settings_menu - menu paska bocznego dla strony ustawień, trzeba być zalogowanym
 
-* mailmenu - sidebar menu for private message page - must be logged in
+* mailmenu - menu paska bocznego dla strony z prywatnymi wiadomościami, trzeba sie zalogować
 
-* design_tools - design tools menu for webpage building pages, must be logged in
+* design_tools - menu narzędzi projektowych do tworzenia stron internetowych, trzeba sie zalogować
 
-* findpeople - tools to find other channels
+* findpeople - narzędzia do wyszukiwania innych kanałów
 
-* photo_albums - list photo albums of the current page owner with a selector menu
+* photo_albums - wyświetla listę albumów ze zdjęciami aktualnego właściciela strony za pomocą menu wyboru
 
-* vcard - mini profile sidebar for the person of interest (page owner, whatever)
+* vcard - mini pasek boczny profilu dla osoby, którą się jest zainteresowanym (właściciel strony, cokolwiek)
 
-* dirsafemode - directory selection tool - only on directory pages
+* dirsafemode - narzędzie do wyboru katalogu - tylko na stronach katalogów
 
-* dirsort - directory selection tool - only on directory pages
+* dirsort - narzędzie do wyboru katalogu - tylko na stronach katalogów
 
-* dirtags - directory tool - only on directory pages
+* dirtags - narzędzie katalogowe - tylko na stronach katalogów
 
-* menu_preview - preview a menu - only on menu edit pages
+* menu_preview - wyświetlanie podgląd menu - tylko na stronach edycji menu
 
-* chatroom_list - list of chatrooms for the page owner
+* chatroom_list - lista czatów dla właściciela strony
 
-* bookmarkedchats - list of bookmarked chatrooms collected on this site for the current observer
+* bookmarkedchats - lista zakładek do czatów zebranych na tej stronie dla obecnego obserwatora
 
-* suggestedchats - "interesting" chatrooms chosen for the current observer
+* suggestedchats - "ciekawe" czaty wybrane dla obecnego obserwatora
 
-* item - displays a single webpage item by mid or page title
+* item - wyświetla pojedynczą stronę internetową zgodnie z argumentem mid lub title
     * args:
-	* channel_id - channel that owns the content, defualt is the profile_uid 
-	* mid - message_id of webpage to display (must be webpage, not a conversation item)
-	* title - URL page title of webpage (must provide one of either title or mid)
+	* channel_id - kanał, do którego należy treść, domyślnie jest to profile_uid 
+	* mid - message_id strony do wyświetlenia (musi być to strona internetowa a nie element konersacji)
+	* title - argument title w adresie URL strony internetowej (musi zawierać tutuł lub mid)
 <br />&nbsp;<br />
 
-* photo - display a single photo
+* photo - wyświetla pojedyncze zdjęcie
     * args: 
-    * url - URL of photo, must be http or https
-    * zrl - use zid authenticated link
-    * style - CSS style string
+    * url - adres URL zdjęcia, musu zawierać schemat http lub https
+    * zrl - uwierzytelniony link zid
+    * style - łańcuch stylu CSS
 <br />&nbsp;<br />
 
-* cover_photo - display the cover photo for the selected channel
+* cover_photo - wyświetla zdjęcie okładkowe dla wybranego kanału
     * args:
-	* channel_id - channel to use, default is the profile_uid 
-    * style - CSS style string (default is dynamically resized to width of region)
+	* channel_id - zastosowany kanał, domyślnie jest to profile_uid 
+    * style - łańcuch stylu CSS (domyślnie jest dynamicznie ustawiane na szerokość regionu)
 <br />&nbsp;<br />
 
 
-* photo_rand - display a random photo from one of your photo albums. Photo permissions are honoured
+* photo_rand - wyświetla losowe zdjęcie z jednego z albumów fotograficznych. Honorowane są uprawnienie dostępu do zdjęć
     * args: 
-    * album - album name (very strongly recommended if you have lots of photos)
-    * scale - typically 0 (original size), 1 (1024px), 2, (640px), or 3 (320px)
-    * style - CSS style string
-	* channel_id - if not your own
+    * album - nazwa albumu (bardzo gorąco zalecane, jeśli ma się dużo zdjęć)
+    * scale - zazwyczaj 0 (oryginalna wielkość), 1 (1024px), 2, (640px) lub 3 (320px)
+    * style - łańcuch stylu CSS
+	* channel_id - jeśli nie Twój
 <br />&nbsp;<br />
 
-* random_block - display a random block element from your webpage design tools collection. Permissions are honoured.
+* random_block - wyświetlić losowy element blokowy z kolekcji narzędzi do projektowania stron internetowych. Honorowane są uprawnienia dostępu.
     * args: 
-    * contains - only return blocks which include the contains string in the block name
-    * channel_id - if not your own
+    * contains - zwraca tylko bloki, które zawierają łańcuch cotains w nazwie bloku
+    * channel_id - jeśłi nie Twój
 <br />&nbsp;<br />
 
-* tasklist - provide a task or to-do list for the currently logged-in channel.
+* tasklist - podać listę zadań lub spraw do załatwienia dla aktualnie zalogowanego kanału.
 	* args:
-	* all - display completed tasks if all is non-zero.
+	* all - jeśłi nie 0, to wyświetla ukończone zadania.
 <br />&nbsp;<br />
 
-* forums - provide a list of connected public forums with unseen counts for the current logged-in channel.
+* forums - podać listę połączonych forów publicznych z niewidocznymi liczbami dla aktualnie zalogowanego kanału.
 <br />&nbsp;<br />
 
-* activity - provide a list of authors of unread network content for the current logged-in channel.
+* activity - podać listę autorów nieprzeczytanych treści sieciowych dla aktualnie zalogowanego kanału.
 
-* album - provides a widget containing a complete photo album from albums belonging to the page owner; this may be too large to present in a sidebar region as is best implemented as a content region widget. 
+* album - udostępnia widget zawierający pełny album ze zdjęciami z albumów należących do właściciela strony; może być zbyt duży, aby wyświetlić go w regionie paska bocznego, więc najlepiej jest zaimplementować to jako widżet obszaru treści. 
 	* args:
-	* album - album name
-	* title - optional title, album name is used if not present
+	* album - nazwa albumu
+	* title - opcjonalny tytuł, używana jest nazwa albumu, jeśli nie jest dostęþna
 <br />&nbsp;<br />
  
 
-Creating New Widgets
-====================
+Tworzenie własnych widżetów
+===========================
 
-### Class Widgets
+### Widżety oparty na klasie
 
-To create a class-based widget named 'slugfish' create a file with the following contents:
+Aby utworzyć widżet oparty, na przykład, na klasie o nazwie "slugfish", utwórz plik o następującej zawartości:
 
 ````
 <?php
@@ -143,30 +143,27 @@ class Slugfish {
 
 	function widget($args) {
 
-	... widget code goes here.
-	... The function returns a string which is the HTML content of the widget.
-	... $args is a named array which is passed any [var] variables from the layout editor
-	... For instance [widget=slugfish][var=count]3[/var][/widget] will populate $args with
+	... Wstaw tutaj kod widżetu.
+	... Funkcja ta zwraca łańcuch, który jest treścią HTML widżetu.
+	... $args to nazwa tablicy, która przekazuje sowolne zmienne [var] z edytora układu
+	... Na przykład [widget=slugfish][var=count]3[/var][/widget] wypełni $args tak:
 	... [ 'count' => 3 ]
 
 	}
 
 ````
+Wynikowy plik można umieścić w widget/Slugfish/Slugfish.php lub Zotlabs/SiteWidgets/Slugfish.php. Można go również połączyć z repozytorium git za pomocą pliku util/add_widget_repo.
 
-The resultant file may be placed in widget/Slugfish/Slugfish.php , or Zotlabs/SiteWidgets/Slugfish.php . It also may be linked from a git repository using util/add_widget_repo.
+### Tradycyjny widget oparty na funkcjach
 
-
-
-Traditional function based widget:
-
-If you want a widget named 'slugfish', create widget/widget_slugfish.php containing
+Jeśli chcesz mieć widżet o nazwie, na przykład, "slugfish", utwórz `widget/widget_slugfish.php` zawierający
 
 
     <?php
     
     function widget_slugfish($args) {
     
-    .. widget code goes here. See above information for class-based widgets for details.
+    .. wstaw tu kod widżetu. Zobacz powyższe informacje o widżetach opartych na klasie, aby uzyskać szczegółowe informacje.
     
     }
 
