@@ -5,7 +5,8 @@ function string_plural_select_pl($n){
 	return ($n==1 ? 0 : ($n%10>=2 && $n%10<=4 && ($n%100<12 || $n%100>14) ? 1 : 2));
 }}
 App::$rtl = 0;
-App::$strings["plural_function_code"] = "(n==1 ? 0 : (n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2))"App::$strings["Can view my channel stream and posts"] = "Może wyświetlać strumień i wpisy z mojego kanału";
+App::$strings["plural_function_code"] = "(n==1 ? 0 : (n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2))";
+App::$strings["Can view my channel stream and posts"] = "Może wyświetlać strumień i wpisy z mojego kanału";
 App::$strings["Can send me their channel stream and posts"] = "Może przesyłać mi strumień swojego kanału i wpisy";
 App::$strings["Can view my default channel profile"] = "Może wyświetlać mój domyślny profil kanału";
 App::$strings["Can view my connections"] = "Może wyświetlać moje połączenia";
@@ -2096,7 +2097,7 @@ App::$strings["Show posts to this forum"] = "Pokaż wpisy na tym forum";
 App::$strings["Show forums"] = "Pokaż fora";
 App::$strings["Starred Posts"] = "Wyróżnione wpisy";
 App::$strings["Show posts that I have starred"] = "Pokaż wpisy, które oznaczyłem gwiazdką";
-App::$strings["Personal Posts"] = "Wpisy osobiste";
+App::$strings["Personal Posts"] = "Osobiste wpisy";
 App::$strings["Show posts that mention or involve me"] = "Pokaż wpisy, które wspominają o mnie lub mnie dotyczą";
 App::$strings["Show posts that I have filed to %s"] = "Pokaż wpisy przesłane przeze mnie do %s";
 App::$strings["Show filed post categories"] = "Pokaż wprowadzone kategorie wpisów";
