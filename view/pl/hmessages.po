@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-03-31\n"
+"PO-Revision-Date: 2021-03-31 22:59+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1505,16 +1505,16 @@ msgstr "Dodaj elementy profilu"
 
 #: ../../Zotlabs/Module/Profiles.php:735
 msgid "Personal"
-msgstr "Osobisty"
+msgstr "Osobiste"
 
 #: ../../Zotlabs/Module/Profiles.php:737
 msgid "Relationship"
-msgstr "Relacja"
+msgstr "Relacje"
 
 #: ../../Zotlabs/Module/Profiles.php:738 ../../Zotlabs/Widget/Newmember.php:51
 #: ../../include/datetime.php:58
 msgid "Miscellaneous"
-msgstr "Różne"
+msgstr "Inne"
 
 #: ../../Zotlabs/Module/Profiles.php:740
 msgid "Import profile from file"
@@ -11945,7 +11945,7 @@ msgstr "Cały dzień"
 
 #: ../../include/js_strings.php:119
 msgid "Please stand by while your download is being prepared."
-msgstr "Proszę czekać, aż pobieranie jest przygotowywane."
+msgstr "Proszę czekać, aż pobieranie zostanie zakończone."
 
 #: ../../include/security.php:609
 msgid ""
