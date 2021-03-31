@@ -14858,7 +14858,7 @@ msgstr "nofed - zapisano ustawienie."
 
 #: ../../extend/addon/hzaddons/nofed/Mod_Nofed.php:33
 msgid "No Federation App"
-msgstr "Brak aplikacji Federation"
+msgstr "Aplikacja Bez Federalizacji"
 
 #: ../../extend/addon/hzaddons/nofed/Mod_Nofed.php:34
 msgid ""
@@ -14873,11 +14873,11 @@ msgstr "Domyślnie, wpisy federacyjne"
 
 #: ../../extend/addon/hzaddons/nofed/Mod_Nofed.php:50
 msgid "No Federation"
-msgstr "Brak Federation"
+msgstr "Brak Federalizacji"
 
 #: ../../extend/addon/hzaddons/nofed/nofed.php:47
 msgid "Federate"
-msgstr "Federate"
+msgstr "Federalizacja"
 
 #: ../../extend/addon/hzaddons/hsse/Mod_Hsse.php:15
 msgid "WYSIWYG status editor"
