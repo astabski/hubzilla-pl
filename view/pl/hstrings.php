@@ -2,10 +2,10 @@
 
 if(! function_exists("string_plural_select_pl")) {
 function string_plural_select_pl($n){
-	return ($n==1 ? 0 : ($n%10>=2 && $n%10<=4 && ($n%100<12 || $n%100>14) ? 1 : 2));
+	return ($n==1 ? 0 : $n%10>=2 && $n%10<=4 && ($n%100<12 || $n%100>14) ? 1 : 2);
 }}
 App::$rtl = 0;
-App::$strings["plural_function_code"] = "(n==1 ? 0 : (n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2))";
+App::$strings["plural_function_code"] = "(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2)";
 App::$strings["Can view my channel stream and posts"] = "Może wyświetlać strumień i wpisy z mojego kanału";
 App::$strings["Can send me their channel stream and posts"] = "Może przesyłać mi strumień swojego kanału i wpisy";
 App::$strings["Can view my default channel profile"] = "Może wyświetlać mój domyślny profil kanału";
@@ -102,7 +102,7 @@ App::$strings["Timezone:"] = "Strefa czasowa:";
 App::$strings["Description"] = "Opis";
 App::$strings["Location"] = "Lokalizacja";
 App::$strings["Previous"] = "Poprzedni";
-App::$strings["Next"] = "Nastęþny";
+App::$strings["Next"] = "Następny";
 App::$strings["Today"] = "Dzisiaj";
 App::$strings["Month"] = "Miesiąc";
 App::$strings["Week"] = "Tydzień";
@@ -1379,7 +1379,7 @@ App::$strings["The database configuration file \".htconfig.php\" could not be wr
 App::$strings["Errors encountered creating database tables."] = "Napotkano błędy podczas tworzenia tabel bazy danych.";
 App::$strings["<h1>What next?</h1>"] = "<h1>Co następnie?</h1>";
 App::$strings["IMPORTANT: You will need to [manually] setup a scheduled task for the poller."] = "WAŻNE: Będziesz musiał [ręcznie] ustawić zaplanowane zadanie dla ankietera.";
-App::$strings["No default suggestions were found."] = "Nie znaleziono domyślnych prpozycji.";
+App::$strings["No default suggestions were found."] = "Nie znaleziono domyślnych propozycji.";
 App::$strings["%d rating"] = array(
 	0 => "%d ocen",
 	1 => "%d oceny",
@@ -1461,9 +1461,9 @@ App::$strings["Registration successful. Please check your email for validation i
 App::$strings["Your registration is pending approval by the site owner."] = "Twoja rejestracja oczekuje na zatwierdzenie przez właściciela serwisu.";
 App::$strings["Your registration can not be processed."] = "Twoja rejestracja oczekuje na zatwierdzenie przez właściciela witryny.";
 App::$strings["Registration on this hub is disabled."] = "Rejestracja na tym węźle jest wyłączona.";
-App::$strings["Registration on this hub is by approval only."] = "Rejestracja na tym węźle wymaga zatwierdzenia.";
+App::$strings["Registration on this hub is by approval only."] = "Rejestracja na tym węźle wymaga zatwierdzenia przez administratora.";
 App::$strings["<a href=\"pubsites\">Register at another affiliated hub.</a>"] = "<a href=\"pubsites\">Zarejestruj się na innym stowarzyszonym węźle. </a>";
-App::$strings["Registration on this hub is by invitation only."] = "Rejestracja na tym węźle wumaga uprzedniego zaproszenia.";
+App::$strings["Registration on this hub is by invitation only."] = "Rejestracja na tym węźle wymaga uprzedniego zaproszenia.";
 App::$strings["This site has exceeded the number of allowed daily account registrations. Please try again tomorrow."] = "Na tym serwisie przekroczono dozwoloną liczbę dziennych rejestracji kont. Proszę spróbuj ponownie jutro.";
 App::$strings["Terms of Service"] = "Regulamin";
 App::$strings["I accept the %s for this website"] = "Akceptuję % s dla tego serwisu";
@@ -1535,7 +1535,7 @@ App::$strings["Anybody in this network"] = "Każdy w tej sieci";
 App::$strings["Anybody authenticated"] = "Każda uwierzytelniona osoba";
 App::$strings["Anybody on the internet"] = "Każdy w internecie";
 App::$strings["Publish your default profile in the network directory"] = "Opublikuj swój domyślny profil w katalogu sieciowym";
-App::$strings["Allow us to suggest you as a potential friend to new members?"] = "Czy pozwalasz nam sugerować Ciebie jako potencjalnego przyjaciela nowym członkom?";
+App::$strings["Allow us to suggest you as a potential friend to new members?"] = "Czy pozwalasz nam sugerować nowym członkom Ciebie jako potencjalnego przyjaciela?";
 App::$strings["or"] = "lub";
 App::$strings["Your channel address is"] = "Twój adres kanału to";
 App::$strings["Your files/photos are accessible via WebDAV at"] = "Twoje pliki/zdjęcia są dostępne przez WebDAV pod adresem";

@@ -1,14 +1,15 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:07+0100\n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-03-31\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2));\n"
+"Language: pl\n"
 "X-Generator: Poedit 2.3\n"
 
 #: ../../Zotlabs/Access/Permissions.php:56
@@ -629,7 +630,7 @@ msgstr "Poprzedni"
 #: ../../Zotlabs/Module/Events.php:707 ../../Zotlabs/Module/Photos.php:956
 #: ../../Zotlabs/Module/Cal.php:206 ../../Zotlabs/Module/Setup.php:260
 msgid "Next"
-msgstr "Nastęþny"
+msgstr "Następny"
 
 #: ../../Zotlabs/Module/Cdav.php:1037 ../../Zotlabs/Module/Events.php:708
 #: ../../Zotlabs/Module/Cal.php:207
@@ -6780,7 +6781,7 @@ msgstr "WAŻNE: Będziesz musiał [ręcznie] ustawić zaplanowane zadanie dla an
 
 #: ../../Zotlabs/Module/Directory.php:122
 msgid "No default suggestions were found."
-msgstr "Nie znaleziono domyślnych prpozycji."
+msgstr "Nie znaleziono domyślnych propozycji."
 
 #: ../../Zotlabs/Module/Directory.php:282
 #, php-format
@@ -7110,7 +7111,7 @@ msgstr "Rejestracja na tym węźle jest wyłączona."
 
 #: ../../Zotlabs/Module/Register.php:204
 msgid "Registration on this hub is by approval only."
-msgstr "Rejestracja na tym węźle wymaga zatwierdzenia."
+msgstr "Rejestracja na tym węźle wymaga zatwierdzenia przez administratora."
 
 #: ../../Zotlabs/Module/Register.php:205 ../../Zotlabs/Module/Register.php:214
 msgid "<a href=\"pubsites\">Register at another affiliated hub.</a>"
@@ -7118,7 +7119,7 @@ msgstr "<a href=\"pubsites\">Zarejestruj się na innym stowarzyszonym węźle. <
 
 #: ../../Zotlabs/Module/Register.php:213
 msgid "Registration on this hub is by invitation only."
-msgstr "Rejestracja na tym węźle wumaga uprzedniego zaproszenia."
+msgstr "Rejestracja na tym węźle wymaga uprzedniego zaproszenia."
 
 #: ../../Zotlabs/Module/Register.php:224
 msgid ""
@@ -7433,7 +7434,7 @@ msgstr "Opublikuj swój domyślny profil w katalogu sieciowym"
 #: ../../Zotlabs/Module/Settings/Channel.php:416
 msgid "Allow us to suggest you as a potential friend to new members?"
 msgstr ""
-"Czy pozwalasz nam sugerować Ciebie jako potencjalnego przyjaciela nowym członkom?"
+"Czy pozwalasz nam sugerować nowym członkom Ciebie jako potencjalnego przyjaciela?"
 
 #: ../../Zotlabs/Module/Settings/Channel.php:420
 msgid "or"
