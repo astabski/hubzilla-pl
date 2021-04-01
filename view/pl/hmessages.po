@@ -1,15 +1,13 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-04-01 00:58+0200\n"
+"PO-Revision-Date: 2021-04-01 22:59+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n"%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 2.3\n"
 
 #: ../../Zotlabs/Access/Permissions.php:56
@@ -6673,7 +6671,7 @@ msgstr "<h1>Co następnie?</h1>"
 
 #: ../../Zotlabs/Module/Setup.php:765
 msgid "IMPORTANT: You will need to [manually] setup a scheduled task for the poller."
-msgstr "WAŻNE: Będziesz musiał [ręcznie] ustawić zaplanowane zadanie dla ankietera."
+msgstr "WAŻNE: Będziesz musiał [ręcznie] ustawić zaplanowanie zadania Cron."
 
 #: ../../Zotlabs/Module/Directory.php:122
 msgid "No default suggestions were found."
@@ -7780,7 +7778,7 @@ msgstr "Twoja wiadomość:"
 
 #: ../../Zotlabs/Module/Invite.php:158
 msgid "Please join my community on $Projectname."
-msgstr "Dołącz do mojej społeczności w $Projectname."
+msgstr "Zapraszam do dołączenia do mojej społeczności $Projectname i Fediverse."
 
 #: ../../Zotlabs/Module/Invite.php:160
 msgid "You will need to supply this invitation code:"
@@ -7789,12 +7787,16 @@ msgstr "Trzeba będzie podać ten kod zaproszenia:"
 #: ../../Zotlabs/Module/Invite.php:161
 msgid "1. Register at any $Projectname location (they are all inter-connected)"
 msgstr ""
-"1. Zarejestruj się na wskazanym węźle $Projectname (choć możesz też na innym, bo wszystkie "
-"są ze sobą połączone)"
+"1. Zarejestruj się na poniżej wskazanym węźle sieci $Projectname (choć możesz też na "
+"innym, bo wszystkie są ze sobą połączone) i utwórz swój domyślny profil. Wcześniej "
+"zapoznaj się z Regulaminem i poradnikiem \"Kanał osobisty\" dostępnym w po kliknieciu "
+"linku \"Pomoc\" lub skontaktuj się ze mną."
 
 #: ../../Zotlabs/Module/Invite.php:163
 msgid "2. Enter my $Projectname network address into the site searchbar."
-msgstr "2. Wpisz w pasku wyszukiwania serwisu mój adres sieciowy $Projectname."
+msgstr ""
+"2. Aby połączyć się z moim kanałem, wpisz w pasku wyszukiwania serwisu mój adres sieciowy "
+"$Projectname."
 
 #: ../../Zotlabs/Module/Invite.php:164
 msgid "or visit"

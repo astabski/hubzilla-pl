@@ -2,11 +2,10 @@
 
 if(! function_exists("string_plural_select_pl")) {
 function string_plural_select_pl($n){
-	return ($n==1 ? 0 : $n%10>=2 && $n%10<=4 && ($n%100<12 || $n%100>14) ? 1 : 2);
+	return ($n==1 ? 0 : $n%10>=2 && $n%10<=4 && ($n%100<12 || $n"%100>14) ? 1 : 2);
 }}
 App::$rtl = 0;
-App::$strings["plural_function_code"] = "(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2)";
-App::$strings["Can view my channel stream and posts"] = "Może wyświetlać strumień i wpisy z mojego kanału";
+App::$strings["plural_function_code"] = "(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n"%100>14) ? 1 : 2)"App::$strings["Can view my channel stream and posts"] = "Może wyświetlać strumień i wpisy z mojego kanału";
 App::$strings["Can send me their channel stream and posts"] = "Może przesyłać mi strumień swojego kanału i wpisy";
 App::$strings["Can view my default channel profile"] = "Może wyświetlać mój domyślny profil kanału";
 App::$strings["Can view my connections"] = "Może wyświetlać moje połączenia";
@@ -1378,7 +1377,7 @@ App::$strings["Url rewrite is working"] = "Przepisywanie adresu URL działa";
 App::$strings["The database configuration file \".htconfig.php\" could not be written. Please use the enclosed text to create a configuration file in your web server root."] = "Nie można zapisać pliku konfiguracyjnego bazy danych \".htconfig.php\". Użyj załączonego tekstu, aby utworzyć plik konfiguracyjny w katalogu głównym serwera WWW.";
 App::$strings["Errors encountered creating database tables."] = "Napotkano błędy podczas tworzenia tabel bazy danych.";
 App::$strings["<h1>What next?</h1>"] = "<h1>Co następnie?</h1>";
-App::$strings["IMPORTANT: You will need to [manually] setup a scheduled task for the poller."] = "WAŻNE: Będziesz musiał [ręcznie] ustawić zaplanowane zadanie dla ankietera.";
+App::$strings["IMPORTANT: You will need to [manually] setup a scheduled task for the poller."] = "WAŻNE: Będziesz musiał [ręcznie] ustawić zaplanowanie zadania Cron.";
 App::$strings["No default suggestions were found."] = "Nie znaleziono domyślnych propozycji.";
 App::$strings["%d rating"] = array(
 	0 => "%d ocen",
@@ -1647,10 +1646,10 @@ App::$strings["You have no more invitations available"] = "Nie masz więcej dost
 App::$strings["Send invitations"] = "Wysyłać zaproszenia";
 App::$strings["Enter email addresses, one per line:"] = "Wprowadź adresy e-mail, po jednym w każdym wierszu:";
 App::$strings["Your message:"] = "Twoja wiadomość:";
-App::$strings["Please join my community on \$Projectname."] = "Dołącz do mojej społeczności w \$Projectname.";
+App::$strings["Please join my community on \$Projectname."] = "Zapraszam do dołączenia do mojej społeczności \$Projectname i Fediverse.";
 App::$strings["You will need to supply this invitation code:"] = "Trzeba będzie podać ten kod zaproszenia:";
-App::$strings["1. Register at any \$Projectname location (they are all inter-connected)"] = "1. Zarejestruj się na wskazanym węźle \$Projectname (choć możesz też na innym, bo wszystkie są ze sobą połączone)";
-App::$strings["2. Enter my \$Projectname network address into the site searchbar."] = "2. Wpisz w pasku wyszukiwania serwisu mój adres sieciowy \$Projectname.";
+App::$strings["1. Register at any \$Projectname location (they are all inter-connected)"] = "1. Zarejestruj się na poniżej wskazanym węźle sieci \$Projectname (choć możesz też na innym, bo wszystkie są ze sobą połączone) i utwórz swój domyślny profil. Wcześniej zapoznaj się z Regulaminem i poradnikiem \"Kanał osobisty\" dostępnym w po kliknieciu linku \"Pomoc\" lub skontaktuj się ze mną.";
+App::$strings["2. Enter my \$Projectname network address into the site searchbar."] = "2. Aby połączyć się z moim kanałem, wpisz w pasku wyszukiwania serwisu mój adres sieciowy \$Projectname.";
 App::$strings["or visit"] = "lub odwiedź adres URL";
 App::$strings["3. Click [Connect]"] = "3. Kliknij [Połącz]";
 App::$strings["About this site"] = "O tym serwisie";
