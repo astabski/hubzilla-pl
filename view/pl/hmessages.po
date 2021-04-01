@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the hubzilla package.
 # Mike Macgirvin, 2012
 # Andrzej Budzinski, 2021
-#, fuzzy
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-04-01 22:59+0200\n"
+"PO-Revision-Date: 2021-04-01 23:40+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -7774,7 +7773,7 @@ msgstr "Nie masz więcej dostępnych zaproszeń"
 
 #: ../../Zotlabs/Module/Invite.php:155
 msgid "Send invitations"
-msgstr "Wysyłać zaproszenia"
+msgstr "Wyślij zaproszenia"
 
 #: ../../Zotlabs/Module/Invite.php:156
 msgid "Enter email addresses, one per line:"
@@ -7790,7 +7789,7 @@ msgstr "Zapraszam do dołączenia do mojej społeczności $Projectname i Fediver
 
 #: ../../Zotlabs/Module/Invite.php:160
 msgid "You will need to supply this invitation code:"
-msgstr "Trzeba będzie podać ten kod zaproszenia:"
+msgstr "W formularzy rejstracji trzeba będzie podać ten kod zaproszenia:"
 
 #: ../../Zotlabs/Module/Invite.php:161
 msgid "1. Register at any $Projectname location (they are all inter-connected)"
