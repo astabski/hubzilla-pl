@@ -8,7 +8,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-04-01 23:40+0200\n"
+"PO-Revision-Date: 2021-04-03 00:23+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3178,11 +3178,11 @@ msgstr "Otwórz domyślnie sekcję Uprawnienia indywidualne"
 
 #: ../../Zotlabs/Module/Connedit.php:708
 msgid "Affinity"
-msgstr "Koligacja"
+msgstr "Zaprzyjaźnienie"
 
 #: ../../Zotlabs/Module/Connedit.php:711
 msgid "Open Set Affinity section by default"
-msgstr "Otwieraj domyślnie sekcję Ustaw koligację"
+msgstr "Otwieraj domyślnie sekcję Ustaw zaprzyjażnienie"
 
 #: ../../Zotlabs/Module/Connedit.php:715 ../../Zotlabs/Widget/Affinity.php:30
 msgid "Me"
@@ -3228,7 +3228,7 @@ msgstr "Zaakceptuj połączenie, aby umożliwić komunikację"
 
 #: ../../Zotlabs/Module/Connedit.php:793
 msgid "Set Affinity"
-msgstr "Ustaw skoligacenie"
+msgstr "Ustaw zaprzyjaźnienie"
 
 #: ../../Zotlabs/Module/Connedit.php:796
 msgid "Set Profile"
@@ -3236,7 +3236,7 @@ msgstr "Ustaw profil"
 
 #: ../../Zotlabs/Module/Connedit.php:799
 msgid "Set Affinity & Profile"
-msgstr "Ustaw skoligacenie i profil"
+msgstr "Ustaw zaprzyjaźnienie i profil"
 
 #: ../../Zotlabs/Module/Connedit.php:847
 msgid "This connection is unreachable from this location."
@@ -4651,7 +4651,7 @@ msgstr ""
 
 #: ../../Zotlabs/Module/Affinity.php:52
 msgid "Affinity Tool App"
-msgstr "Aplikacja Narzędzie Koligacji"
+msgstr "Aplikacja Narzędzie Zaprzyjaźnienia"
 
 #: ../../Zotlabs/Module/Affinity.php:57
 msgid ""
@@ -4689,7 +4689,7 @@ msgstr ""
 
 #: ../../Zotlabs/Module/Affinity.php:84
 msgid "Affinity Tool Settings"
-msgstr "Ustawienia Narzędzia Koligacji"
+msgstr "Ustawienia Narzędzia Zaprzyjaźnienia"
 
 #: ../../Zotlabs/Module/Common.php:14
 msgid "No channel."
@@ -8389,7 +8389,7 @@ msgstr "Aplikacje"
 
 #: ../../Zotlabs/Lib/Apps.php:324
 msgid "Affinity Tool"
-msgstr "Narzędzie koligacji"
+msgstr "Narzędzie Zaprzyjaźnienia"
 
 #: ../../Zotlabs/Lib/Apps.php:327
 msgid "Site Admin"
@@ -10628,8 +10628,7 @@ msgstr "Jeszcze więcej szyfrowania"
 #: ../../include/features.php:228
 msgid "Allow optional encryption of content end-to-end with a shared secret key"
 msgstr ""
-"Zezwalaj na opcjonalne szyfrowanie zawartości od końca do końca za pomocą wspólnego "
-"tajnego klucza"
+"Zezwalaj na opcjonalne pełne (e2e) szyfrowanie treści  za pomocą wspólnego tajnego klucza"
 
 #: ../../include/features.php:235
 msgid "Disable Comments"
