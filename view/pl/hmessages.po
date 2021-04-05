@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-04 00:39+0200\n"
-"PO-Revision-Date: 2021-04-04 01:03+0200\n"
+"PO-Revision-Date: 2021-04-05 16:20+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -4060,7 +4060,7 @@ msgid ""
 "If the export fails (possibly due to memory exhaustion on your server hub), "
 "please try again selecting a more limited date range."
 msgstr ""
-"Można także wyeksportować swoje wpisy i rozmowy z określonego rok lub "
+"Można także wyeksportować swoje wpisy i rozmowy z określonego roku lub "
 "miesiąca. Dostosuj datę na pasku adresu przeglądarki, aby wybrać inne daty. "
 "Jeśli eksport się nie powiedzie (prawdopodobnie z powodu wyczerpania pamięci "
 "w serwera węzła), spróbuj ponownie, wybierając bardziej ograniczony zakres "
@@ -8446,7 +8446,7 @@ msgstr "*"
 
 #: ../../Zotlabs/Module/Sources.php:107 ../../Zotlabs/Lib/Apps.php:368
 msgid "Channel Sources"
-msgstr "Źródła kanałów"
+msgstr "Źródła"
 
 #: ../../Zotlabs/Module/Sources.php:108
 msgid "Manage remote sources of content for your channel."
@@ -8490,7 +8490,7 @@ msgstr "Wyślij ponownie wpisy z tym kanałem jako autorem"
 
 #: ../../Zotlabs/Module/Sources.php:124 ../../Zotlabs/Module/Sources.php:159
 msgid "Copyrights may apply"
-msgstr "Copyrights may apply"
+msgstr "Mogą obowiązywać prawa autorskie"
 
 #: ../../Zotlabs/Module/Sources.php:144 ../../Zotlabs/Module/Sources.php:174
 msgid "Source not found."
@@ -8514,7 +8514,7 @@ msgstr "Nie można usunąć źródła."
 
 #: ../../Zotlabs/Module/Poke.php:165
 msgid "Poke App"
-msgstr "Aplikacja Kuksaniec"
+msgstr "Aplikacja kuksaniec"
 
 #: ../../Zotlabs/Module/Poke.php:166
 msgid "Poke somebody in your addressbook"
@@ -9167,14 +9167,14 @@ msgstr "[$Projectname:Notify] Komentarz do rozmowy #%1$d przez %2$s"
 #: ../../Zotlabs/Lib/Enotify.php:240
 #, php-format
 msgid "%1$s commented on an item/conversation you have been following."
-msgstr "%1$s skomentował obserwowany element/rozmowę."
+msgstr "%1$s skomentował obserwowany element/rozmowa."
 
 #: ../../Zotlabs/Lib/Enotify.php:243 ../../Zotlabs/Lib/Enotify.php:324
 #: ../../Zotlabs/Lib/Enotify.php:340 ../../Zotlabs/Lib/Enotify.php:365
 #: ../../Zotlabs/Lib/Enotify.php:382 ../../Zotlabs/Lib/Enotify.php:395
 #, php-format
 msgid "Please visit %s to view and/or reply to the conversation."
-msgstr "Odwiedź %s, aby wyświetlić rozmowę albo odpowiedzieć na nią."
+msgstr "Odwiedź %s, aby wyświetlić albo włączyć się do rozmowy."
 
 #: ../../Zotlabs/Lib/Enotify.php:247 ../../Zotlabs/Lib/Enotify.php:248
 #, php-format
@@ -11041,7 +11041,7 @@ msgstr "Nielubienie wpisów"
 
 #: ../../include/features.php:167
 msgid "Ability to dislike posts/comments"
-msgstr "Możliwość wpisów i komentarzy jako nielubiane"
+msgstr "Możliwość oznaczania wpisów i komentarzy jako nielubiane"
 
 #: ../../include/features.php:174
 msgid "Star Posts"
@@ -11077,7 +11077,7 @@ msgstr "Kategorie wpisów"
 
 #: ../../include/features.php:211
 msgid "Add categories to your posts"
-msgstr "Dodaj kategorie do swoich wpisów"
+msgstr "Dodawanie kategori do swoich wpisów"
 
 #: ../../include/features.php:219
 msgid "Large Photos"
@@ -11104,7 +11104,7 @@ msgstr ""
 
 #: ../../include/features.php:235
 msgid "Disable Comments"
-msgstr "Wyłącz komentarze"
+msgstr "Wyłączanie komentarzy"
 
 #: ../../include/features.php:236
 msgid "Provide the option to disable comments for a post"
@@ -11116,11 +11116,11 @@ msgstr "Opóźnione publikowanie"
 
 #: ../../include/features.php:244
 msgid "Allow posts to be published at a later date"
-msgstr "Pozwal na publikację wpisów w późniejszym terminie"
+msgstr "Pozwala na publikację wpisów w późniejszym terminie"
 
 #: ../../include/features.php:251
 msgid "Content Expiration"
-msgstr "Wygaśnięcie treści"
+msgstr "Wygasanie treści"
 
 #: ../../include/features.php:252
 msgid "Remove posts/comments and/or private messages at a future time"
@@ -11128,7 +11128,7 @@ msgstr "Usuwanie wpisów i komentarzy lub prywatnych wiadomości w przyszłości
 
 #: ../../include/features.php:259
 msgid "Suppress Duplicate Posts/Comments"
-msgstr "Pomiń zduplikowane wpisy i komentarze"
+msgstr "Pomijaj zduplikowane wpisy i komentarze"
 
 #: ../../include/features.php:260
 msgid ""
@@ -13651,7 +13651,7 @@ msgstr "Hasło Hubzilla"
 
 #: ../../extend/addon/hubzilla-addons/redred/Mod_Redred.php:87
 msgid "Hubzilla Crosspost Connector"
-msgstr "Hubzilla Crosspost Connector"
+msgstr "Konektor Hubzilla"
 
 #: ../../extend/addon/hubzilla-addons/totp/Mod_Totp.php:23
 msgid "TOTP Two-Step Verification"
@@ -14216,19 +14216,19 @@ msgstr "%1$s desaprobat %2$s %3$s"
 msgid ""
 "Please install the statistics addon to be able to configure a diaspora relay"
 msgstr ""
-"Zainstaluj dodatek do statystyk, aby móc skonfigurować przekaźnik Diaspory"
+"Zainstaluj dodatek do statystyk, aby móc skonfigurować konektor Diaspory"
 
 #: ../../extend/addon/hubzilla-addons/diaspora/diaspora.php:80
 msgid "Diaspora Relay Handle"
-msgstr "Uchwyt przekaźnika Diaspory"
+msgstr "Uchwyt konektora Diaspory"
 
 #: ../../extend/addon/hubzilla-addons/diaspora/diaspora.php:80
 msgid "Address of a diaspora relay. Example: relay@diasporarelay.tld"
-msgstr "Adres przekaźnika diaspory. Przykład: relay@diasporarelay.tld"
+msgstr "Adres konektora diaspory. Przykład: relay@diasporarelay.tld"
 
 #: ../../extend/addon/hubzilla-addons/diaspora/diaspora.php:100
 msgid "Diaspora relay could not be imported"
-msgstr "Nie można zaimportować przekaźnika diaspory"
+msgstr "Nie można zaimportować konektora diaspory"
 
 #: ../../extend/addon/hubzilla-addons/dirstats/dirstats.php:94
 msgid "Hubzilla Directory Stats"
@@ -14311,7 +14311,7 @@ msgstr "PHP post_max_size (musi być większe od upload_max_filesize): "
 #: ../../extend/addon/hubzilla-addons/hideaside/Mod_Hideaside.php:23
 #: ../../extend/addon/hubzilla-addons/hideaside/Mod_Hideaside.php:27
 msgid "Hide Aside App"
-msgstr "Aplikacja Ukryj"
+msgstr "Aplikacja Hide Aside"
 
 #: ../../extend/addon/hubzilla-addons/hideaside/Mod_Hideaside.php:24
 #: ../../extend/addon/hubzilla-addons/hideaside/Mod_Hideaside.php:28
@@ -14691,7 +14691,7 @@ msgstr ""
 
 #: ../../extend/addon/hubzilla-addons/photocache/Mod_Photocache.php:42
 msgid "Photo Cache App"
-msgstr "Aplikacja Bufor Zdjęć"
+msgstr "Aplikacja Bufor zdjęć"
 
 #: ../../extend/addon/hubzilla-addons/photocache/Mod_Photocache.php:53
 msgid "Minimal photo size for caching"
@@ -14705,7 +14705,7 @@ msgstr ""
 
 #: ../../extend/addon/hubzilla-addons/photocache/Mod_Photocache.php:64
 msgid "Photo Cache"
-msgstr "Bufor Zdjęć"
+msgstr "Bufor zdjęć"
 
 #: ../../extend/addon/hubzilla-addons/opensearch/opensearch.php:26
 #, php-format
@@ -15616,7 +15616,7 @@ msgstr "Wiadomość przywołana."
 
 #: ../../extend/addon/hubzilla-addons/mail/Mod_Mail.php:106
 msgid "Conversation removed."
-msgstr "Rozmowa została usunięta."
+msgstr "Rozmowa został usunięty."
 
 #: ../../extend/addon/hubzilla-addons/mail/Mod_Mail.php:121
 #: ../../extend/addon/hubzilla-addons/mail/Mod_Mail.php:242
@@ -16271,7 +16271,7 @@ msgstr "Zamazywanie Lokalizacji"
 
 #: ../../extend/addon/hubzilla-addons/startpage/Mod_Startpage.php:50
 msgid "Startpage App"
-msgstr "Aplikacja Strona Początkowa"
+msgstr "Aplikacja Strona początkowa"
 
 #: ../../extend/addon/hubzilla-addons/startpage/Mod_Startpage.php:51
 msgid "Set a preferred page to load on login from home page"
@@ -16294,7 +16294,7 @@ msgstr ""
 
 #: ../../extend/addon/hubzilla-addons/startpage/Mod_Startpage.php:70
 msgid "Startpage"
-msgstr "Stona Początkowa"
+msgstr "Strona początkowa"
 
 #: ../../view/theme/redbasic/php/config.php:16
 #: ../../view/theme/redbasic/php/config.php:19
