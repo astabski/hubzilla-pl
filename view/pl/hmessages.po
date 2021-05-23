@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 5.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-23 21:08+0200\n"
-"PO-Revision-Date: 2021-05-23 21:51+0200\n"
+"PO-Revision-Date: 2021-05-23 23:32+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -7223,7 +7223,7 @@ msgid ""
 "example contain references to images on your own hub."
 msgstr ""
 "To ograniczenie zostało wprowadzone, ponieważ Twoje publiczne wpisy mogą na "
-"przykład zawierać odniesienia do obrazów na Twoim węźle."
+"przykład zawierać odniesienia do obrazów na Twoim portalu."
 
 #: ../../Zotlabs/Module/Setup.php:664
 msgid ""
@@ -7654,11 +7654,11 @@ msgstr "Błąd podczas tworzenia dId A"
 
 #: ../../Zotlabs/Module/Register.php:435
 msgid "Registration on this hub is disabled."
-msgstr "Rejestracja na tym węźle jest wyłączona."
+msgstr "Rejestracja na tym portalu jest wyłączona."
 
 #: ../../Zotlabs/Module/Register.php:444
 msgid "Registration on this hub is by approval only."
-msgstr "Rejestracja na tym węźle wymaga zatwierdzenia przez administratora."
+msgstr "Rejestracja na tym portalu wymaga zatwierdzenia przez administratora."
 
 #: ../../Zotlabs/Module/Register.php:445
 msgid "Register at another affiliated hub in case when prefered"
@@ -7668,7 +7668,7 @@ msgstr ""
 
 #: ../../Zotlabs/Module/Register.php:458
 msgid "Registration on this hub is by invitation only."
-msgstr "Rejestracja na tym węźle wymaga uprzedniego zaproszenia."
+msgstr "Rejestracja na tym portalu wymaga uprzedniego zaproszenia."
 
 #: ../../Zotlabs/Module/Register.php:459
 msgid "Register at another affiliated hub"
@@ -12089,7 +12089,7 @@ msgstr "Zdalne uwierzytelnianie"
 
 #: ../../include/nav.php:95
 msgid "Click to authenticate to your home hub"
-msgstr "Kliknij, aby uwierzytelnić się na swoim głównym węźle"
+msgstr "Kliknij, aby uwierzytelnić się na swoim głównym portalu"
 
 #: ../../include/nav.php:101
 msgid "Manage your channels"
@@ -16850,7 +16850,7 @@ msgstr "Zadania Crona (zaplanowane) nie działają."
 #~ msgid ""
 #~ "1. Register at any $Projectname location (they are all inter-connected)"
 #~ msgstr ""
-#~ "1. Zarejestruj się na poniżej wskazanym węźle sieci $Projectname (choć "
+#~ "1. Zarejestruj się na poniżej wskazanym portalu sieci $Projectname (choć "
 #~ "możesz też na innym, bo wszystkie są ze sobą połączone) i utwórz swój "
 #~ "domyślny profil. Wcześniej zapoznaj się z Regulaminem i poradnikiem "
 #~ "\"Kanał osobisty\" dostępnym w po kliknieciu linku \"Pomoc\" lub "
