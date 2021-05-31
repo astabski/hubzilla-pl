@@ -3748,7 +3748,7 @@ msgstr "Twój komentarz oczekuje na zatwierdzenie."
 
 #: ../../Zotlabs/Module/Item.php:1498
 msgid "Unable to obtain post information from database."
-msgstr "Nie można uzyskać z bazy danych informacji o tym poście."
+msgstr "Nie można uzyskać z bazy danych informacji o tym wpisie."
 
 #: ../../Zotlabs/Module/Item.php:1505
 #, php-format
@@ -4116,7 +4116,7 @@ msgstr "Twoje nowe hasło to"
 
 #: ../../Zotlabs/Module/Lostpass.php:94
 msgid "Save or copy your new password - and then"
-msgstr "Zapisz lub skopiuj nowe hasło - a następnie"
+msgstr "Zapisz lub skopiuj nowe hasło, a następnie"
 
 #: ../../Zotlabs/Module/Lostpass.php:95
 msgid "click here to login"
@@ -4947,7 +4947,7 @@ msgid ""
 "this feature."
 msgstr ""
 "Ostrzeżenie: zmiana niektórych ustawień może spowodować, że Twój kanał przestanie "
-"działać. Opuść tę stronę, chyba że czujesz się komfortowo i nie wiesz, jak prawidłowo "
+"działać. Opuść tę stronę, chyba że czujesz się kompetentnie i wiesz, jak prawidłowo "
 "korzystać z tej funkcji."
 
 #: ../../Zotlabs/Module/Randprof.php:29
@@ -8407,7 +8407,7 @@ msgstr "Prześlij i kontynuuj"
 
 #: ../../Zotlabs/Module/Menu.php:171 ../../include/text.php:2713
 msgid "Menus"
-msgstr "Menu"
+msgstr "Kolekcja menu"
 
 #: ../../Zotlabs/Module/Menu.php:181
 msgid "Bookmarks allowed"
@@ -8443,7 +8443,7 @@ msgstr "Nazwa menu"
 
 #: ../../Zotlabs/Module/Menu.php:220
 msgid "Must be unique, only seen by you"
-msgstr "Musi być wyjątkowy, widoczny tylko dla Ciebie"
+msgstr "Musi być unikalna, widoczna tylko dla Ciebie"
 
 #: ../../Zotlabs/Module/Menu.php:221
 msgid "Menu title"
