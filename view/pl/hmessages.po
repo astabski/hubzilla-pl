@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-01 02:30+0200\n"
-"PO-Revision-Date: 2021-08-01 02:54+0200\n"
+"POT-Creation-Date: 2021-08-20 01:31+0200\n"
+"PO-Revision-Date: 2021-08-20 01:34+0200\n"
 "Last-Translator: Andrzej Budziński <astabski@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -156,8 +156,8 @@ msgstr "Specjalne - repozytorium grupowe"
 #: ../../Zotlabs/Module/Cdav.php:1386 ../../Zotlabs/Module/Profiles.php:796
 #: ../../Zotlabs/Module/Connedit.php:920 ../../include/selectors.php:60
 #: ../../include/selectors.php:77 ../../include/selectors.php:115
-#: ../../include/selectors.php:151 ../../include/connections.php:741
-#: ../../include/connections.php:748 ../../include/event.php:1429
+#: ../../include/selectors.php:151 ../../include/connections.php:728
+#: ../../include/connections.php:735 ../../include/event.php:1429
 #: ../../include/event.php:1436
 msgid "Other"
 msgstr "Inny"
@@ -173,7 +173,7 @@ msgstr "Tryb niestandardowy/ekspercki"
 #: ../../Zotlabs/Module/Defperms.php:182 ../../Zotlabs/Module/Layouts.php:71
 #: ../../Zotlabs/Module/Layouts.php:78 ../../Zotlabs/Module/Layouts.php:89
 #: ../../Zotlabs/Module/Group.php:15 ../../Zotlabs/Module/Group.php:31
-#: ../../Zotlabs/Module/Appman.php:87 ../../Zotlabs/Module/Moderate.php:15
+#: ../../Zotlabs/Module/Appman.php:91 ../../Zotlabs/Module/Moderate.php:15
 #: ../../Zotlabs/Module/New_channel.php:105
 #: ../../Zotlabs/Module/New_channel.php:130
 #: ../../Zotlabs/Module/Filestorage.php:20
@@ -229,8 +229,8 @@ msgstr "Tryb niestandardowy/ekspercki"
 #: ../../include/attach.php:205 ../../include/attach.php:278
 #: ../../include/attach.php:329 ../../include/attach.php:424
 #: ../../include/attach.php:438 ../../include/attach.php:445
-#: ../../include/attach.php:527 ../../include/attach.php:1091
-#: ../../include/attach.php:1164 ../../include/attach.php:1327
+#: ../../include/attach.php:527 ../../include/attach.php:1095
+#: ../../include/attach.php:1168 ../../include/attach.php:1331
 #: ../../include/items.php:3744
 #: ../../extend/addon/hubzilla-addons/openid/Mod_Id.php:53
 #: ../../extend/addon/hubzilla-addons/keepout/keepout.php:36
@@ -333,7 +333,7 @@ msgstr "Układ systemowy"
 #: ../../Zotlabs/Module/Pdledit.php:108 ../../Zotlabs/Module/Profiles.php:724
 #: ../../Zotlabs/Module/Import.php:582 ../../Zotlabs/Module/Defperms.php:266
 #: ../../Zotlabs/Module/Group.php:151 ../../Zotlabs/Module/Group.php:167
-#: ../../Zotlabs/Module/Appman.php:155 ../../Zotlabs/Module/Oauth.php:111
+#: ../../Zotlabs/Module/Appman.php:159 ../../Zotlabs/Module/Oauth.php:111
 #: ../../Zotlabs/Module/Import_items.php:129
 #: ../../Zotlabs/Module/Connect.php:107
 #: ../../Zotlabs/Module/Filestorage.php:208 ../../Zotlabs/Module/Oauth2.php:116
@@ -454,7 +454,7 @@ msgstr "php util/z6convert.php"
 msgid "from the terminal."
 msgstr "z terminala."
 
-#: ../../Zotlabs/Module/Dreport.php:10 ../../Zotlabs/Module/Dreport.php:82
+#: ../../Zotlabs/Module/Dreport.php:10 ../../Zotlabs/Module/Dreport.php:67
 #: ../../Zotlabs/Module/Profperm.php:28 ../../Zotlabs/Module/Cloud.php:123
 #: ../../Zotlabs/Module/Like.php:342 ../../Zotlabs/Module/Group.php:99
 #: ../../Zotlabs/Module/Import_items.php:120
@@ -466,69 +466,57 @@ msgstr "z terminala."
 msgid "Permission denied"
 msgstr "Dostęp zabroniony"
 
-#: ../../Zotlabs/Module/Dreport.php:59
+#: ../../Zotlabs/Module/Dreport.php:50
 msgid "Invalid message"
 msgstr "Nieprawidłowa wiadomość"
 
-#: ../../Zotlabs/Module/Dreport.php:92
+#: ../../Zotlabs/Module/Dreport.php:77
 msgid "no results"
 msgstr "brak wyników"
 
-#: ../../Zotlabs/Module/Dreport.php:106
+#: ../../Zotlabs/Module/Dreport.php:91
 msgid "channel sync processed"
 msgstr "synchronizacja kanałów została przetworzona"
 
-#: ../../Zotlabs/Module/Dreport.php:110
+#: ../../Zotlabs/Module/Dreport.php:95
 msgid "queued"
 msgstr "w kolejce"
 
-#: ../../Zotlabs/Module/Dreport.php:114
+#: ../../Zotlabs/Module/Dreport.php:99
 msgid "posted"
 msgstr "opublikowane"
 
-#: ../../Zotlabs/Module/Dreport.php:118
+#: ../../Zotlabs/Module/Dreport.php:103
 msgid "accepted for delivery"
 msgstr "przyjęty do dostawy"
 
-#: ../../Zotlabs/Module/Dreport.php:122
+#: ../../Zotlabs/Module/Dreport.php:107
 msgid "updated"
 msgstr "zaktualizowany"
 
-#: ../../Zotlabs/Module/Dreport.php:125
+#: ../../Zotlabs/Module/Dreport.php:110
 msgid "update ignored"
 msgstr "aktualizacja zignorowana"
 
-#: ../../Zotlabs/Module/Dreport.php:128
+#: ../../Zotlabs/Module/Dreport.php:113
 msgid "permission denied"
 msgstr "dostęp zabroniony"
 
-#: ../../Zotlabs/Module/Dreport.php:132
+#: ../../Zotlabs/Module/Dreport.php:117
 msgid "recipient not found"
 msgstr "nie znaleziono odbiorcy"
 
-#: ../../Zotlabs/Module/Dreport.php:135
-msgid "mail recalled"
-msgstr "mail odwołany"
-
-#: ../../Zotlabs/Module/Dreport.php:138
-msgid "duplicate mail received"
-msgstr "otrzymano powieloną wiadomość"
-
-#: ../../Zotlabs/Module/Dreport.php:141
-msgid "mail delivered"
-msgstr "dostarczono pocztę"
-
-#: ../../Zotlabs/Module/Dreport.php:161
+#: ../../Zotlabs/Module/Dreport.php:137
 #, php-format
 msgid "Delivery report for %1$s"
 msgstr "Raport dostarczenia dla %1$s"
 
-#: ../../Zotlabs/Module/Dreport.php:165 ../../Zotlabs/Widget/Wiki_pages.php:41
+#: ../../Zotlabs/Module/Dreport.php:141 ../../Zotlabs/Widget/Wiki_pages.php:41
 #: ../../Zotlabs/Widget/Wiki_pages.php:98
 msgid "Options"
 msgstr "Opcje"
 
-#: ../../Zotlabs/Module/Dreport.php:166
+#: ../../Zotlabs/Module/Dreport.php:142
 msgid "Redeliver"
 msgstr "Dostarcz ponownie"
 
@@ -625,7 +613,7 @@ msgstr "Data i godzina zakończenia"
 msgid "Timezone:"
 msgstr "Strefa czasowa:"
 
-#: ../../Zotlabs/Module/Cdav.php:1015 ../../Zotlabs/Module/Appman.php:145
+#: ../../Zotlabs/Module/Cdav.php:1015 ../../Zotlabs/Module/Appman.php:149
 #: ../../Zotlabs/Module/Rbmark.php:100
 #: ../../extend/addon/hubzilla-addons/rendezvous/rendezvous.php:173
 #: ../../extend/addon/hubzilla-addons/cart/submodules/hzservices.php:656
@@ -845,20 +833,20 @@ msgid "Note"
 msgstr "Notatka"
 
 #: ../../Zotlabs/Module/Cdav.php:1383 ../../Zotlabs/Module/Profiles.php:793
-#: ../../Zotlabs/Module/Connedit.php:917 ../../include/connections.php:734
+#: ../../Zotlabs/Module/Connedit.php:917 ../../include/connections.php:721
 #: ../../include/event.php:1422
 msgid "Mobile"
 msgstr "Komórka"
 
 #: ../../Zotlabs/Module/Cdav.php:1384 ../../Zotlabs/Module/Profiles.php:794
 #: ../../Zotlabs/Module/Connedit.php:918
-#: ../../Zotlabs/Widget/Notifications.php:36 ../../include/connections.php:735
+#: ../../Zotlabs/Widget/Notifications.php:36 ../../include/connections.php:722
 #: ../../include/event.php:1423
 msgid "Home"
 msgstr "Domowy"
 
 #: ../../Zotlabs/Module/Cdav.php:1385 ../../Zotlabs/Module/Profiles.php:795
-#: ../../Zotlabs/Module/Connedit.php:919 ../../include/connections.php:738
+#: ../../Zotlabs/Module/Connedit.php:919 ../../include/connections.php:725
 #: ../../include/event.php:1426
 msgid "Work"
 msgstr "Praca"
@@ -1108,7 +1096,7 @@ msgstr "Zapisz do folderu"
 msgid "Documentation Search"
 msgstr "Przeszukaj dokumentację"
 
-#: ../../Zotlabs/Module/Help.php:83 ../../include/nav.php:438
+#: ../../Zotlabs/Module/Help.php:83 ../../include/nav.php:439
 msgid "About"
 msgstr "O platformie"
 
@@ -1193,7 +1181,7 @@ msgid "Export selected"
 msgstr "Eksportuj wybrane"
 
 #: ../../Zotlabs/Module/Webpages.php:251 ../../Zotlabs/Lib/Apps.php:342
-#: ../../include/nav.php:528
+#: ../../include/nav.php:529
 msgid "Webpages"
 msgstr "Strony internetowe"
 
@@ -1439,7 +1427,7 @@ msgid "Profile name"
 msgstr "Nazwa profilu"
 
 #: ../../Zotlabs/Module/Profiles.php:746 ../../Zotlabs/Module/Profiles.php:750
-#: ../../Zotlabs/Module/Appman.php:143 ../../Zotlabs/Module/Appman.php:144
+#: ../../Zotlabs/Module/Appman.php:147 ../../Zotlabs/Module/Appman.php:148
 #: ../../Zotlabs/Module/Register.php:498 ../../include/js_strings.php:123
 #: ../../include/datetime.php:211
 #: ../../extend/addon/hubzilla-addons/cart/submodules/orderoptions.php:334
@@ -2075,47 +2063,47 @@ msgstr "Aplikacja została zainstalowana."
 msgid "Malformed app."
 msgstr "Nieprawidłowa aplikacja."
 
-#: ../../Zotlabs/Module/Appman.php:132
+#: ../../Zotlabs/Module/Appman.php:136
 msgid "Embed code"
 msgstr "Osadzony kod"
 
-#: ../../Zotlabs/Module/Appman.php:138
+#: ../../Zotlabs/Module/Appman.php:142
 msgid "Edit App"
 msgstr "Edutuj aplikację"
 
-#: ../../Zotlabs/Module/Appman.php:138
+#: ../../Zotlabs/Module/Appman.php:142
 msgid "Create App"
 msgstr "Utwórz aplikację"
 
-#: ../../Zotlabs/Module/Appman.php:143
+#: ../../Zotlabs/Module/Appman.php:147
 msgid "Name of app"
 msgstr "Nazwa aplikacji"
 
-#: ../../Zotlabs/Module/Appman.php:144
+#: ../../Zotlabs/Module/Appman.php:148
 msgid "Location (URL) of app"
 msgstr "Lokalizacja (URL) aplikacji"
 
-#: ../../Zotlabs/Module/Appman.php:146
+#: ../../Zotlabs/Module/Appman.php:150
 msgid "Photo icon URL"
 msgstr "Adres URL ikony zdjęcia"
 
-#: ../../Zotlabs/Module/Appman.php:146
+#: ../../Zotlabs/Module/Appman.php:150
 msgid "80 x 80 pixels - optional"
 msgstr "80 x 80 pikseli - opcjonalnie"
 
-#: ../../Zotlabs/Module/Appman.php:147
+#: ../../Zotlabs/Module/Appman.php:151
 msgid "Categories (optional, comma separated list)"
 msgstr "Kategorie (opcjonalne, lista rozdzielana przecinkami)"
 
-#: ../../Zotlabs/Module/Appman.php:148
+#: ../../Zotlabs/Module/Appman.php:152
 msgid "Version ID"
 msgstr "ID wesji"
 
-#: ../../Zotlabs/Module/Appman.php:149
+#: ../../Zotlabs/Module/Appman.php:153
 msgid "Price of app"
 msgstr "Cena aplikacji"
 
-#: ../../Zotlabs/Module/Appman.php:150
+#: ../../Zotlabs/Module/Appman.php:154
 msgid "Location (URL) to purchase app"
 msgstr "Lokalizacja (URL) do zakupu aplikacji"
 
@@ -2736,7 +2724,7 @@ msgid "Error downloading wiki: "
 msgstr "Błąd podczas pobierania wiki: "
 
 #: ../../Zotlabs/Module/Wiki.php:205 ../../Zotlabs/Widget/Wiki_list.php:15
-#: ../../include/nav.php:540
+#: ../../include/nav.php:541
 msgid "Wikis"
 msgstr "Wiki"
 
@@ -3029,13 +3017,13 @@ msgid "Online"
 msgstr "On-line"
 
 #: ../../Zotlabs/Module/Fbrowser.php:29 ../../Zotlabs/Lib/Apps.php:346
-#: ../../include/features.php:368 ../../include/nav.php:448
+#: ../../include/features.php:368 ../../include/nav.php:449
 msgid "Photos"
 msgstr "Zdjęcia"
 
 #: ../../Zotlabs/Module/Fbrowser.php:85 ../../Zotlabs/Storage/Browser.php:351
 #: ../../Zotlabs/Lib/Apps.php:341 ../../Zotlabs/Widget/Notifications.php:101
-#: ../../include/nav.php:456
+#: ../../include/nav.php:457
 msgid "Files"
 msgstr "Pliki"
 
@@ -4540,7 +4528,7 @@ msgid "Add Card"
 msgstr "Dodaj kartę"
 
 #: ../../Zotlabs/Module/Cards.php:207 ../../Zotlabs/Lib/Apps.php:327
-#: ../../include/nav.php:505
+#: ../../include/nav.php:506
 msgid "Cards"
 msgstr "Karty"
 
@@ -5490,7 +5478,7 @@ msgstr "Zezwalaj na kod"
 msgid "Disallow Code"
 msgstr "Nie zezwalaj na kod"
 
-#: ../../Zotlabs/Module/Admin/Channels.php:154 ../../include/nav.php:425
+#: ../../Zotlabs/Module/Admin/Channels.php:154 ../../include/nav.php:426
 msgid "Channel"
 msgstr "Kanał"
 
@@ -6616,7 +6604,7 @@ msgid "Add Article"
 msgstr "Dodaj artykuł"
 
 #: ../../Zotlabs/Module/Articles.php:225 ../../Zotlabs/Lib/Apps.php:326
-#: ../../include/nav.php:516
+#: ../../include/nav.php:517
 msgid "Articles"
 msgstr "Artykuły"
 
@@ -8933,7 +8921,8 @@ msgstr "Nie można połączyć się ze sobą."
 msgid "error saving data"
 msgstr "błąd podczas zapisywania danych"
 
-#: ../../Zotlabs/Lib/Apps.php:324 ../../include/nav.php:338
+#: ../../Zotlabs/Lib/Apps.php:324 ../../include/nav.php:337
+#: ../../include/nav.php:338
 msgid "Apps"
 msgstr "Aplikacje"
 
@@ -8950,12 +8939,12 @@ msgstr "Administrator portalu"
 msgid "Report Bug"
 msgstr "Raport błędów"
 
-#: ../../Zotlabs/Lib/Apps.php:330 ../../include/nav.php:494
+#: ../../Zotlabs/Lib/Apps.php:330 ../../include/nav.php:495
 msgid "Bookmarks"
 msgstr "Zakładki"
 
 #: ../../Zotlabs/Lib/Apps.php:331 ../../Zotlabs/Widget/Chatroom_list.php:16
-#: ../../include/nav.php:481 ../../include/nav.php:484
+#: ../../include/nav.php:482 ../../include/nav.php:485
 msgid "Chatrooms"
 msgstr "Czaty"
 
@@ -8985,7 +8974,7 @@ msgstr "Zaloguj się"
 msgid "Stream"
 msgstr "Strumień"
 
-#: ../../Zotlabs/Lib/Apps.php:343 ../../include/nav.php:543
+#: ../../Zotlabs/Lib/Apps.php:343 ../../include/nav.php:544
 msgid "Wiki"
 msgstr "Wiki"
 
@@ -8994,7 +8983,7 @@ msgid "Channel Home"
 msgstr "Strona główna kanału"
 
 #: ../../Zotlabs/Lib/Apps.php:347 ../../include/features.php:82
-#: ../../include/nav.php:467 ../../include/nav.php:470
+#: ../../include/nav.php:468 ../../include/nav.php:471
 msgid "Calendar"
 msgstr "Kalendarz"
 
@@ -11991,10 +11980,6 @@ msgstr "@name, !forum, #tag, ?doc, content"
 msgid "Please wait..."
 msgstr "Proszę czekać ..."
 
-#: ../../include/nav.php:337
-msgid "Add Apps"
-msgstr "Zainstalowane aplikacje"
-
 #: ../../include/nav.php:339
 msgid "Channel Apps"
 msgstr "Aplikacje kanałowe"
@@ -12007,35 +11992,35 @@ msgstr "Aplikacje systemowe"
 msgid "Arrange Apps"
 msgstr "Rozmieść aplikacje"
 
-#: ../../include/nav.php:428
+#: ../../include/nav.php:429
 msgid "Status Messages and Posts"
 msgstr "Komunikaty o stanie i wpisach"
 
-#: ../../include/nav.php:441
+#: ../../include/nav.php:442
 msgid "Profile Details"
 msgstr "Szczegóły profilu"
 
-#: ../../include/nav.php:451 ../../include/photos.php:714
+#: ../../include/nav.php:452 ../../include/photos.php:714
 msgid "Photo Albums"
 msgstr "Albumy zdjęć"
 
-#: ../../include/nav.php:459
+#: ../../include/nav.php:460
 msgid "Files and Storage"
 msgstr "Pliki i ich magazyn"
 
-#: ../../include/nav.php:497
+#: ../../include/nav.php:498
 msgid "Saved Bookmarks"
 msgstr "Zapisane zakładki"
 
-#: ../../include/nav.php:508
+#: ../../include/nav.php:509
 msgid "View Cards"
 msgstr "Wyświetl karty"
 
-#: ../../include/nav.php:519
+#: ../../include/nav.php:520
 msgid "View Articles"
 msgstr "Wyświetl artykuły"
 
-#: ../../include/nav.php:531
+#: ../../include/nav.php:532
 msgid "View Webpages"
 msgstr "Wyświetl strony internetowe"
 
@@ -12850,60 +12835,60 @@ msgstr "Nie można znaleźć pliku do zastąpienia"
 msgid "Cannot locate file to revise/update"
 msgstr "Nie można zlokalizować pliku do poprawienia/aktualizacji"
 
-#: ../../include/attach.php:795
+#: ../../include/attach.php:799
 #, php-format
 msgid "File exceeds size limit of %d"
 msgstr "Plik przekracza limit rozmiaru %d"
 
-#: ../../include/attach.php:816
+#: ../../include/attach.php:820
 #, php-format
 msgid "You have reached your limit of %1$.0f Mbytes attachment storage."
 msgstr "Osiągnięty został limit %1$.0f MB miejsca na załączniki."
 
-#: ../../include/attach.php:1004
+#: ../../include/attach.php:1008
 msgid "File upload failed. Possible system limit or action terminated."
 msgstr ""
 "Przesyłanie pliku nie powiodło się. Możliwe ograniczenie systemowe lub "
 "działanie zakończone."
 
-#: ../../include/attach.php:1033
+#: ../../include/attach.php:1037
 msgid "Stored file could not be verified. Upload failed."
 msgstr "Nie można zweryfikować zapisanego pliku. Przesyłanie nie powiodło się."
 
-#: ../../include/attach.php:1105 ../../include/attach.php:1121
+#: ../../include/attach.php:1109 ../../include/attach.php:1125
 msgid "Path not available."
 msgstr "Ścieżka niedostępna."
 
-#: ../../include/attach.php:1169 ../../include/attach.php:1332
+#: ../../include/attach.php:1173 ../../include/attach.php:1336
 msgid "Empty pathname"
 msgstr "Pusta ścieżka"
 
-#: ../../include/attach.php:1195
+#: ../../include/attach.php:1199
 msgid "duplicate filename or path"
 msgstr "zduplikowana nazwa pliku lub ścieżka"
 
-#: ../../include/attach.php:1220
+#: ../../include/attach.php:1224
 msgid "Path not found."
 msgstr "Ścieżka nie znaleziona."
 
-#: ../../include/attach.php:1288
+#: ../../include/attach.php:1292
 msgid "mkdir failed."
 msgstr "mkdir zakończył się błędem."
 
-#: ../../include/attach.php:1292
+#: ../../include/attach.php:1296
 msgid "database storage failed."
 msgstr "zapis w bazie danych nie powiódł się."
 
-#: ../../include/attach.php:1338
+#: ../../include/attach.php:1342
 msgid "Empty path"
 msgstr "Pusta ścieżka"
 
-#: ../../include/attach.php:2099
+#: ../../include/attach.php:2103
 #, php-format
 msgid "%s shared a %s with you"
 msgstr "%s udostępnił Ci %s"
 
-#: ../../include/attach.php:2099
+#: ../../include/attach.php:2103
 #: ../../extend/addon/hubzilla-addons/redfiles/redfilehelper.php:64
 msgid "file"
 msgstr "plik"
@@ -12916,19 +12901,19 @@ msgstr "Nowe okno"
 msgid "Open the selected location in a different window or browser tab"
 msgstr "Otwórz wybraną lokalizację w innym oknie lub karcie przeglądarki"
 
-#: ../../include/connections.php:736 ../../include/event.php:1424
+#: ../../include/connections.php:723 ../../include/event.php:1424
 msgid "Home, Voice"
 msgstr "Domowy, głosowy"
 
-#: ../../include/connections.php:737 ../../include/event.php:1425
+#: ../../include/connections.php:724 ../../include/event.php:1425
 msgid "Home, Fax"
 msgstr "Domowy, fax"
 
-#: ../../include/connections.php:739 ../../include/event.php:1427
+#: ../../include/connections.php:726 ../../include/event.php:1427
 msgid "Work, Voice"
 msgstr "Praca, głosowy"
 
-#: ../../include/connections.php:740 ../../include/event.php:1428
+#: ../../include/connections.php:727 ../../include/event.php:1428
 msgid "Work, Fax"
 msgstr "Praca, fax"
 
@@ -16386,6 +16371,10 @@ msgstr ""
 msgid "Startpage"
 msgstr "Strona początkowa"
 
+#: ../../store/[data]/smarty3/compiled/4273aa2a22c53a684534d31037cd2bdf2a3c9a72_0.file.cover_photo.tpl.php:127
+msgid "Cover Photo"
+msgstr "Zdjęcia na okładkę"
+
 #: ../../view/theme/redbasic/php/config.php:16
 #: ../../view/theme/redbasic/php/config.php:19
 msgid "Focus (Hubzilla default)"
@@ -16516,6 +16505,18 @@ msgstr "[$Projectname] Zadania Crona nie działają na %s"
 #: ../../boot.php:2734
 msgid "Cron/Scheduled tasks not running."
 msgstr "Zadania Crona (zaplanowane) nie działają."
+
+#~ msgid "mail recalled"
+#~ msgstr "mail odwołany"
+
+#~ msgid "duplicate mail received"
+#~ msgstr "otrzymano powieloną wiadomość"
+
+#~ msgid "mail delivered"
+#~ msgstr "dostarczono pocztę"
+
+#~ msgid "Add Apps"
+#~ msgstr "Zainstalowane aplikacje"
 
 #~ msgid "Welcome to Hubzilla!"
 #~ msgstr "Witamy w Hubzilla!"
